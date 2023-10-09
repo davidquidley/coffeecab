@@ -86,24 +86,14 @@
 </header>
 <hr>
 <main>
-    <h2>Death Wish Coffee Co. Presents-</h2>
+    <h2>'Company' Presents-</h2>
     <div id="photo">
-        <img src="https://www.deathwishcoffee.com/cdn/shop/files/Dark_Roast_16oz_Ground_Angle_A1.jpg?v=1693488390&width=990"
+        <img src="img link goes here"
         width="500" style="border: 2px solid; border-color:#685634;">  
     </div>
-        <h3 style="font-size: 25px;"><b>Dark Roast</b></h3>
-        <p>Dark Roast lovers rejoice! Death Wish brings the depths of darkness to you with their iconic dark roast coffee. The one that started it all, it's no surprise that This
-            roast was able to start a revolution. It has a great flavor profile on it's own and can be mixed with many options of creamers. My favorite way to make this one though is 
-            to make a nice cold brew, and then use International Delight's Cinnabon creamer, this gives you almost something of an ice cream tasting coffee for a very pleasant mornig 
-            wake up. When I'm not cold brewing it, I am often blending it with chocolate flavors. I will usually do a base 12oz coffee pod, with a double shot of one of my many chocolate flavored
-            coffees made in my espresso maker. Add in a splash of International Delight's Hershey Chocolate creamer and it's a wonderful dessert coffee. With the depth of this dark roast, 
-            you won't often find me making anything less than a 12oz cup, because the flavor is strong enough to handle it. Where many other coffee flavors will begiun to wane and weaken after 10oz's,
-            this one stands strong and loses ZERO intensity. I will admit, I am not personally a huge dark roast guy, other brands dark roasts are typically not for me, but there's something about this one 
-            here that does do the trick for me. While it's not going to be my daily cup, it does earn a spot in my cabinet on a consistent basis. Sometimes I find myself craving that 
-            ice cream-like flavor of the cold brew/cinnabon combo and there's just no other coffee I've found to replicate that flavor. Again, not my daily cup, but it does many things well 
-            and for that, I give 4/5 stars.
-        </p>
-        <div><button id="buy"><a href="https://www.deathwishcoffee.com/products/death-wish-coffee?variant=2413985169421"><h4>Buy Here!</h4></button></a> <h3 id="cost">Price: $19.99 per 12 Oz. Bag</h3></div>
+        <h3 style="font-size: 25px;"><b>Blend Name Here</b></h3>
+        <p>Review Here</p>
+        <div><button id="buy"><a href="Prodct Link Here"><h4>Buy Here!</h4></button></a> <h3 id="cost">Price: $19.99 per 12 Oz. Bag</h3></div>
         <hr id="sep1">  
 </main>
 <footer>
