@@ -11,9 +11,9 @@
             color:#7b6b43;
         }
         #photo {
-            float:left;
+            flex:1;
             margin-left: 25px;
-
+            margin-top: 15px;
         
         }
        
@@ -25,17 +25,16 @@
             border-color: #7b6b43;
             background-color: #352208;
         }
+        h3, p {
+            font-family: "Oswald";
+            color: #e1bb80;
+        }
+
         h2 {
             font-family: "Oswald";
             color: #e1bb80;
             text-align: center;
             font-size: 30px;
-        }
-        h3, p {
-            font-family: "Oswald";
-            color: #e1bb80;
-            margin-left:600px;
-            margin-top:50px
         }
         h5 {
             font-family: "Oswald";
@@ -49,34 +48,42 @@
         }
         hr {
             background-color:#806443;
-            height:2px
+            height:2px;
         }
         header {
             border: 10px, solid;
             
         }
         #sep1 {
-            margin-top: 125px;
+            margin-top: 25px
         }
         #buy {
             background-color:#352208;
             color:#e1bb80;
             border: 2px solid;
             border-radius:30%;
-            margin-left: 65px;
+            
             }
             #cost{
-                margin-left:700px;
-                margin-top: -45px;
-                padding-left: 70px;
+                margin-left:10px;
             }
             #brew {
-                margin-left:-500px;
-                margin-top:80px;
+
                 border-color:#7b6b43;
                 text-align: left;
                 }
-                
+            #photo-and-review {
+                display:flex;
+            }
+            #review-and-price {
+                display:flex;
+                flex-direction: column;
+                margin-left:25px;
+            }
+            #price {
+                display:flex;
+                flex-direction: row;
+            }
     </style>
 </head>
 <body style="background-color: black;">
@@ -89,17 +96,21 @@
 <hr>
 <main>
     <h2>Death Wish Coffee Co. Presents-</h2>
+    <section id="photo-and-review">
     <div id="photo">
         <img src="https://m.media-amazon.com/images/I/61zOrvsz0hL.jpg"
         width="500" style="border: 2px solid; border-color:#685634;">  
     </div>
-        <h3>Colombian Blend</h3>
+    <section id="review-and-price">
+        <h3 style="font-size: 20px;">Colombian Blend</h3>
         <p>Death Wish Colombian blend does a lot of things well, but no things excellently. Don't mistake my lack of overt praise for criticism, as it's still a great cup as to be expected by the DWC standard sets, it just doesn't stand out and say "Hello world! I am the Colombian Blend!".
             It's a smooth taste, and does enough to differentiate itself from the standard entries such as Medium, Dark, and Espresso roast. It doesn't present any notable possibilities to me the way that those aformentioned blends do. This is a blend that doesn't strike me as having a specialty 
             brewing combination. I do find it gets a nice distinct flavor with International Delight's French Vanilla creamer, which has not only become my go-to, but in fact my only method of drinking this coffee. I've bought this blend twice, both in the ground loose and Death Cup variants, and if it became Available
             again tomorrow(assuming I was out of my supply, which I currently am not), I would certainly repurchase it a third time. It's a solid blend, reliable flavor, but ultimately it does not do enough to distance itself into a top 3 from a company with an already limited range of flavors. 
         3.5/5 stars for this one, a solid morning cup but not much more.</p>
-        <div><button id="buy"><h4>Currently Unavailable</h4></button><h3 id="cost">Price(When Available): $19.99 per 12 Oz. Bag</h3></div>
+        <div id="price"><button id="buy"><h4>Currently Unavailable</h4></button><h3 id="cost">Price(When Available): $19.99 per 12 Oz. Bag</h3>
+        </div></section>
+        </section>
         <hr id="sep1">  
     </main>
     <footer>
