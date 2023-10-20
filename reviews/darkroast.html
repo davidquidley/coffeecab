@@ -11,9 +11,9 @@
             color:#7b6b43;
         }
         #photo {
-            float:left;
+            flex:1;
             margin-left: 25px;
-
+            margin-top: 15px;
         
         }
        
@@ -28,9 +28,8 @@
         h3, p {
             font-family: "Oswald";
             color: #e1bb80;
-            margin-left:600px;
-            margin-top:50px
         }
+
         h2 {
             font-family: "Oswald";
             color: #e1bb80;
@@ -56,25 +55,35 @@
             
         }
         #sep1 {
-            margin-top: 100px
+            margin-top: 25px
         }
         #buy {
             background-color:#352208;
             color:#e1bb80;
             border: 2px solid;
             border-radius:30%;
-            margin-left: 65px;
+            
             }
             #cost{
-                margin-left:700px;
-                margin-top: -45px
+                margin-left:10px;
             }
             #brew {
-                margin-left:-500px;
-                margin-top:80px;
+
                 border-color:#7b6b43;
                 text-align: left;
                 }
+            #photo-and-review {
+                display:flex;
+            }
+            #review-and-price {
+                display:flex;
+                flex-direction: column;
+                margin-left:25px;
+            }
+            #price {
+                display:flex;
+                flex-direction: row;
+            }
     </style>
 </head>
 <body style="background-color: black;">
@@ -87,11 +96,13 @@
 <hr>
 <main>
     <h2>Death Wish Coffee Co. Presents-</h2>
+    <section id="photo-and-review">
     <div id="photo">
         <img src="https://www.deathwishcoffee.com/cdn/shop/files/Dark_Roast_16oz_Ground_Angle_A1.jpg?v=1693488390&width=990"
         width="500" style="border: 2px solid; border-color:#685634;">  
     </div>
-        <h3 style="font-size: 25px;"><b>Dark Roast</b></h3>
+    <section id="review-and-price">
+        <h3 style="font-size: 20px;"><b>Dark Roast</b></h3>
         <p>Dark Roast lovers rejoice! Death Wish brings the depths of darkness to you with their iconic dark roast coffee. The one that started it all, it's no surprise that This
             roast was able to start a revolution. It has a great flavor profile on it's own and can be mixed with many options of creamers. My favorite way to make this one though is 
             to make a nice cold brew, and then use International Delight's Cinnabon creamer, this gives you almost something of an ice cream tasting coffee for a very pleasant mornig 
@@ -103,7 +114,9 @@
             ice cream-like flavor of the cold brew/cinnabon combo and there's just no other coffee I've found to replicate that flavor. Again, not my daily cup, but it does many things well 
             and for that, I give 4/5 stars.
         </p>
-        <div><button id="buy"><a href="https://www.deathwishcoffee.com/products/death-wish-coffee?variant=2413985169421"><h4>Buy Here!</h4></button></a> <h3 id="cost">Price: $19.99 per 12 Oz. Bag</h3></div>
+        <div id="price"><button id="buy"><a href="https://www.deathwishcoffee.com/products/death-wish-coffee?variant=2413985169421"><h4>Buy Here!</h4></button></a> <h3 id="cost">Price: $19.99 per 12 Oz. Bag</h3>
+        </div></section>
+        </section>
         <hr id="sep1">  
 </main>
 <footer>
