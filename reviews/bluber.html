@@ -11,7 +11,7 @@
             color:#7b6b43;
         }
         #photo {
-            float:left;
+          
             margin-left: 25px;
 
         
@@ -28,8 +28,6 @@
         h3, p {
             font-family: "Oswald";
             color: #e1bb80;
-            margin-left:600px;
-            margin-top:50px
         }
         h2 {
             font-family: "Oswald";
@@ -56,25 +54,35 @@
             
         }
         #sep1 {
-            margin-top: 100px
+            margin-top: 25px
         }
         #buy {
             background-color:#352208;
             color:#e1bb80;
             border: 2px solid;
             border-radius:30%;
-            margin-left: 65px;
+            
             }
             #cost{
-                margin-left:700px;
-                margin-top: -45px
+                margin-left:10px;
             }
             #brew {
-                margin-left:-500px;
-                margin-top:80px;
+
                 border-color:#7b6b43;
                 text-align: left;
                 }
+            #photo-and-review {
+                display:flex;
+            }
+            #review-and-price {
+                display:flex;
+                flex-direction: column;
+                margin-left:25px;
+            }
+            #price {
+                display:flex;
+                flex-direction: row;
+            }
     </style>
 </head>
 <body style="background-color: black;">
@@ -87,13 +95,17 @@
 <hr>
 <main>
     <h2>Death Wish Coffee Co. Presents-</h2>
+    <section id="photo-and-review">
     <div id="photo">
         <img src="https://www.deathwishcoffee.com/cdn/shop/files/Blue_and_Buried_Ground_Angle_A1.jpg?v=1693490678&width=1346"
         width="500" style="border: 2px solid; border-color:#685634;">  
     </div>
+    <section id="review-and-price">
         <h3 style="font-size: 25px;"><b>Blue And Buried</b></h3>
         <p>It will be no secret within minutes of browsing my site, I am a sucker for Death Wish Coffee Co. I won't deny it, they are in my opinion the best bang for your buck coffee on the market. That being said, this blend took them to new heights when I tried it for the first time. You'll come to know that I do not drink my coffee black, as despite my career in the financial industry, I have managed to conserve the presence of my soul. I do however try to sip a new coffee black for the first time I make it, even if it usually ends in a strange expression on my face. The Blue And Buried blend however left me more intrigued than any blend I had sipped black before. Still, I like to enjoy this with a splash of either International Delight's French Vanilla, or Planet Oat's Coffee Cake Oat Creamer. Either of these will leave you with the sensation of enjoying a fresh blueberry muffin from your favorite bakery. Blue And Buried is perfect for morning, noon and night(assuming you are like me and can down a cup of coffee before bed to unwind). Earning the rights of Quid's Favorite for the forseeable future, this is the top rated blend on the site with a rating of 5.5/5 stars. To purchase and give it a try yourself, click below to be taken to Death Wish Coffee Co.'s website!</p>
-        <div><button id="buy"><a href="https://www.deathwishcoffee.com/products/blue-and-buried-coffee?variant=39737355403319"><h4>Buy Here!</h4></button></a> <h3 id="cost">Price: $19.99 per 12 Oz. Bag</h3></div>
+        <div id="price"><button id="buy"><a href="https://www.deathwishcoffee.com/products/blue-and-buried-coffee?variant=39737355403319"><h4>Buy Here!</h4></button></a> <h3 id="cost">Price: $19.99 per 12 Oz. Bag    
+        </h3></div></section>
+    </section>
         <hr id="sep1">  
 </main>
 <footer>
