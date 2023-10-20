@@ -59,6 +59,10 @@
         hr {
             margin-top: 10px;
         }
+        #intro, #brands {
+            display:flex;
+            flex-direction: column;
+        }
     </style>
 </head>
 <body style="background-color: black;">
@@ -70,6 +74,7 @@
 </header>
 <hr>
 <main>
+    <section id="intro">
     <div>
     <h2>Welcome To My Cabinet!</h2>
  <center><img id="welcome" style="border:5px ridge; border-color:#e1bb80;" height="200" src="https://img.freepik.com/free-photo/fresh-coffee-steams-wooden-table-close-up-generative-ai_188544-8923.jpg?w=1060&t=st=1696800776~exp=1696801376~hmac=f06b0f8dadef6cc99b21d140b3c4b83697b9027769d7d4baae40b67e3e208d14"></center>
@@ -82,8 +87,9 @@
     and I look forward to sharing our coffee drinking time together!
 </p>
 </div>
+</section>
 <hr>
-<div>
+<div id="brands">
 <h2>~My Brands~</h2>
 <p>As I stated above, I am not sponsored or paid by any brand, but I do have my preferences. Here I will state out my generally preferred
     coffee, and creamer brands.
@@ -116,12 +122,12 @@
     <h3>Creamer</h3>
     <section id="creamer">
             <div id="one">
-                <img src="images/IntlDl.jpg" width="200">
-                <h3>International Delight</h3>
+                <a href="https://www.internationaldelight.com/"><img src="images/IntlDl.jpg" width="200">
+                <h3>International Delight</h3></a>
             </div>
             <div id="one">
-                <img src="images/plntoat.png" width="200">
-                <h3>Planet Oat</h3>
+                <a href="https://planetoat.com/"><img src="images/plntoat.png" width="200">
+                <h3>Planet Oat</h3></a>
             </div>
 
     </div>
