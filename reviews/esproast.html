@@ -11,12 +11,11 @@
             color:#7b6b43;
         }
         #photo {
-            float:left;
+            flex:1;
             margin-left: 25px;
-
+            margin-top: 15px;
         
-        }
-       
+        }      
         h1 {
             font-family: "Dosis";
             text-align: center;
@@ -28,9 +27,8 @@
         h3, p {
             font-family: "Oswald";
             color: #e1bb80;
-            margin-left:600px;
-            margin-top:50px
         }
+
         h2 {
             font-family: "Oswald";
             color: #e1bb80;
@@ -56,25 +54,35 @@
             
         }
         #sep1 {
-            margin-top: 100px
+            margin-top: 25px
         }
         #buy {
             background-color:#352208;
             color:#e1bb80;
             border: 2px solid;
             border-radius:30%;
-            margin-left: 65px;
+            
             }
             #cost{
-                margin-left:700px;
-                margin-top: -45px
+                margin-left:10px;
             }
             #brew {
-                margin-left:-500px;
-                margin-top:80px;
+
                 border-color:#7b6b43;
                 text-align: left;
                 }
+            #photo-and-review {
+                display:flex;
+            }
+            #review-and-price {
+                display:flex;
+                flex-direction: column;
+                margin-left:25px;
+            }
+            #price {
+                display:flex;
+                flex-direction: row;
+            }
     </style>
 </head>
 <body style="background-color: black;">
@@ -87,11 +95,13 @@
 <hr>
 <main>
     <h2>Death Wish Coffee Co. Presents-</h2>
+    <section id="photo-and-review">
     <div id="photo">
         <img src="https://www.deathwishcoffee.com/cdn/shop/files/Espresso_Roast_14oz_Ground_Angle_A1.jpg?v=1693489398&width=990"
         width="500" style="border: 2px solid; border-color:#685634;">  
     </div>
-        <h3 style="font-size: 25px;"><b>Espresso Roast</b></h3>
+    <section id="review-and-price">
+        <h3 style="font-size: 20px;"><b>Espresso Roast</b></h3>
         <p>Death Wish rounds out their baseline front three for the 'everyday roasts' with the Espresso Blend, a blend that...well....specializes in 
             espresso brew format. That probably didn't need said, but there it is. Of course you can still choose to enjoy it from other brewing methods,
             you won't really be losing out on anything particular. If you have the means to make espresso, I greatly suggest using it for it's intended purpose,
@@ -104,7 +114,9 @@
             3/5 Stars.
 
         </p>
-        <div><button id="buy"><a href="https://www.deathwishcoffee.com/products/espresso-roast-coffee?variant=39781001134135"><h4>Buy Here!</h4></button></a> <h3 id="cost">Price: $19.99 per 12 Oz. Bag</h3></div>
+        <div id="price"><button id="buy"><a href="https://www.deathwishcoffee.com/products/espresso-roast-coffee?variant=39781001134135"><h4>Buy Here!</h4></button></a> <h3 id="cost">Price: $19.99 per 12 Oz. Bag</h3>
+        </div></section>
+        </section>
         <hr id="sep1">  
 </main>
 <footer>
