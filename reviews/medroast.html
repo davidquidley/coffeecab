@@ -11,12 +11,11 @@
             color:#7b6b43;
         }
         #photo {
-            float:left;
+            flex:1;
             margin-left: 25px;
-
+            margin-top: 15px;
         
-        }
-       
+        }      
         h1 {
             font-family: "Dosis";
             text-align: center;
@@ -28,9 +27,8 @@
         h3, p {
             font-family: "Oswald";
             color: #e1bb80;
-            margin-left:600px;
-            margin-top:50px
         }
+
         h2 {
             font-family: "Oswald";
             color: #e1bb80;
@@ -49,32 +47,42 @@
         }
         hr {
             background-color:#806443;
-            height:2px
+            height:2px;
         }
         header {
             border: 10px, solid;
             
         }
         #sep1 {
-            margin-top: 110px
+            margin-top: 25px
         }
         #buy {
             background-color:#352208;
             color:#e1bb80;
             border: 2px solid;
             border-radius:30%;
-            margin-left: 65px;
+            
             }
             #cost{
-                margin-left:700px;
-                margin-top: -45px
+                margin-left:10px;
             }
             #brew {
-                margin-left:-500px;
-                margin-top:80px;
+
                 border-color:#7b6b43;
                 text-align: left;
                 }
+            #photo-and-review {
+                display:flex;
+            }
+            #review-and-price {
+                display:flex;
+                flex-direction: column;
+                margin-left:25px;
+            }
+            #price {
+                display:flex;
+                flex-direction: row;
+            }
     </style>
 </head>
 <body style="background-color: black;">
@@ -87,18 +95,22 @@
 <hr>
 <main>
     <h2>Death Wish Coffee Co. Presents-</h2>
+    <section id="photo-and-review">
     <div id="photo">
         <img src="https://www.deathwishcoffee.com/cdn/shop/files/Medium_Roast_16oz_Ground_Angle_A1.jpg?v=1693488635&width=1346"
         width="500" style="border: 2px solid; border-color:#685634;">  
     </div>
-        <h3>Medium Roast</h3>
+    <section id="review-and-price">
+        <h3 style="font-size: 20px;">Medium Roast</h3>
         <p>Listed under their "Everyday Roasts" category on the DWC site, the Medium Roast excels in being just that, a solid and safe entry for an every day cup. I should know, as I drink it every day myself to either get the day started or keep it going halfway through. 
             Possibly the best quality of the Medium Roast is it's versatility to adapt to flavors, I have found I am able to blend this in to a number of different flavor profiles with creamers and syrups. It makes for a great fall cup, especially when you toss in some pumpkin flavors!
             Not a pumpkin fan? Well while you won't be invited to my next coffee drinking party(or my first, I suppose I should call it), you needn't worry as there are many other possibilities to use this with. While my personal go-to is with International Delight's French Vanilla, I also 
             find it works flawlessly with Planet Oat's Sweet Creme and Coffee Cake flavors, as well as International Delight's French Valilla and Cinnamon Churro. Did I say it went well with International Delight Pumpkin Spice? Ok, I'll give the pumpkin talk a rest....for now. Ultimately, the Medium Roast
             blends well with so many things, it opens itself up as a perfect daily coffee. I can't bring myself to list any negatives for it, and as a reult this blend gets 5/5 stars from me. 
         </p>
-        <div><button id="buy"><a href="https://www.deathwishcoffee.com/products/medium-roast?variant=32485212061751"><h4>Buy Here!</h4></button></a> <h3 id="cost">Price: $19.99 per 12 Oz. Bag</h3></div>
+        <div id="price"><button id="buy"><a href="https://www.deathwishcoffee.com/products/medium-roast?variant=32485212061751"><h4>Buy Here!</h4></button></a> <h3 id="cost">Price: $19.99 per 12 Oz. Bag</h3>
+        </div></section>
+        </section>
         <hr id="sep1">  
     </main>
     <footer>
